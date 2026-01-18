@@ -65,6 +65,79 @@ nav h1 .wave{
     color: #FFFFFF;
 }
 
+/* banner section style */
+.banner{
+    background: url(./assets/hero-bg.png);
+    width: 100%;
+    height: 760px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .top-1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .top-2{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .badge{
+    background-color: #00FF88;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 1000px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 16%;
+    left: 57%;
+    transform: translate(-5%, -10%);
+
+}
+
+.text-content{
+    margin-top: 25rem;
+    text-align: center;
+}
+
+.text-content h1{
+    font-size: 3.75rem;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-bottom: .5rem;
+}
+
+.text-content p{
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-bottom: 1.5rem;
+}
+
+.banner-btn{
+    padding: .75rem 1.25rem;
+    background-color: transparent;
+    border: 2px solid #00FF88;
+    border-radius: 10000px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #00FF88;
+}
+
+
+
+
 
 
 
@@ -83,7 +156,7 @@ nav h1 .wave{
         display: block;
     }
 
-    
+
 
     
 }
