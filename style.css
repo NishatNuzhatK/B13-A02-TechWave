@@ -282,7 +282,7 @@ nav h1 .wave{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 1.8rem;
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
 }
 
 .feature .feature-card{
@@ -325,6 +325,71 @@ nav h1 .wave{
     font-weight: 500;
     padding-bottom: 1.5rem;
 }
+
+/* host section style */
+.host-section{
+    background-color: #1A0B2E;
+
+}
+
+
+.host{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 7rem;
+
+}
+
+.host h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.host-container{
+    background-color: #351165;
+    border: none;
+    border-radius: 40px;
+    padding: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.host-container .host-text{
+    grid-column: span 3;
+}
+
+.host-text h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.host-text p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.host-text .host-icon img{
+    border: 1px solid white;
+    margin-right: .75rem;
+    border-radius: 50%;
+    padding: .75rem;
+    
+}
+
+
+
+
+
+
+
 
 
 
