@@ -217,6 +217,7 @@ nav h1 .wave{
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: minmax(150px, auto);
     gap: 2rem;
+    padding-bottom: 6rem;
 }
 
 .left{
@@ -257,11 +258,73 @@ nav h1 .wave{
 
 }
 
+/* feature section style */
+.feature-section{
+    background-color: #1A0B2E;
+}
+
+.feature{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 2.5rem;
+    padding-top: 6rem;
+
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.8rem;
+    padding-bottom: 3rem;
+}
+
+.feature .feature-card{
+    background-color: #250D44;
+    width: 380px;
+    border: none; 
+    border-radius: 20px;
+    text-align: left;
+
+}
+
+.feature-card iframe{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.feature-card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+}
 
 
+.feature-card p{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
 
+}
 
-
+.minute{
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
 
 
 
@@ -313,6 +376,24 @@ nav h1 .wave{
     margin-left: 2rem;
     
 }
+.choose h1{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.feature-container{
+    
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    margin-left: 1.5rem;
+}
+
+.feature h1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
     
 }
 
@@ -333,8 +414,33 @@ nav h1 .wave{
     padding-bottom: 1rem;
 }
 
+.feature-container{
+    
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    padding: 0 12rem;
+}
 
+.feature h1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 
     
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) { 
+    .feature-container{
+    
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    padding: 0 12rem;
+}
+
+.feature h1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 }
 
