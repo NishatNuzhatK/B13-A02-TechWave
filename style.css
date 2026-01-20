@@ -75,10 +75,10 @@ h1 .wave{
     font-weight: 500;
     color: #FFFFFF;
     animation-name: animations;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
-    animation-delay: 2s;
+    animation-delay: 1s;
 
 }
 
