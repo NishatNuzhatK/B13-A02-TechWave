@@ -530,7 +530,7 @@ footer{
     
     grid-template-columns: repeat(1,1fr);
     gap: 1rem;
-    margin-left: 0.25rem;
+    margin-left: 1rem;
     align-items: center;
 }
 
@@ -540,7 +540,7 @@ footer{
 }
 
 .feature .feature-card{
-    width: 100%;
+    width: 95%;
 }
 
 .host-container{
