@@ -59,14 +59,27 @@ h1 .wave{
     color: transparent;
 }
 
+@keyframes animations{
+    0% {background-color: #F7E93F;}
+    25% {background-color: #FB09B4;}
+    50% {background-color: #a96dd4;}
+    100% {background-color: #038749;}
+}
+
 .btn{
     padding: 1rem 2rem;
-    background:linear-gradient(to right, #F7E93F,#FB09B4,#9100F8);
+    background-color: #F7E93F;
     border: none;
     border-radius: 10000px;
     font-size: 1rem;
     font-weight: 500;
     color: #FFFFFF;
+    animation-name: animations;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+
 }
 
 /* banner section style */
