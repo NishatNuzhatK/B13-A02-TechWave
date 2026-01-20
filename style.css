@@ -140,6 +140,18 @@ h1 .wave{
     margin-bottom: 6rem;
 }
 
+.banner-btn2{
+    padding: 1rem 2rem;
+    background:linear-gradient(to right, #F7E93F,#FB09B4,#9100F8);
+    border: none;
+    border-radius: 10000px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
 
 /* about section style */
 
@@ -512,7 +524,7 @@ footer{
 
 .footer-icon{
     grid-template-columns: repeat(2,1fr);
-    gap: 1.3rem;
+    gap: 1rem;
 }
 
    
