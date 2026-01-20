@@ -52,7 +52,7 @@ nav h1{
     color: #FFFFFF;
 }
 
-nav h1 .wave{
+h1 .wave{
     background:linear-gradient(to right, #F7E93F,#FB09B4,#9100F8);
     -webkit-background-clip: text;
     background-clip: text;
@@ -384,6 +384,50 @@ nav h1 .wave{
     
 }
 
+/*footer section style  */
+
+footer{
+    background: url(./assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 412px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.footer-container h1{
+    font-size:3.5rem ;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.footer-icon{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.3rem;
+}
+
+.footer-icon p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.footer-container p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
 
 
 
@@ -456,6 +500,8 @@ nav h1 .wave{
 .host-container{
     grid-template-columns: repeat(1,1fr);
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 
 }
 
