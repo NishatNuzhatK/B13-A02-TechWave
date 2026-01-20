@@ -526,6 +526,8 @@ footer{
     margin-right: .5rem;
 }
 
+
+
 .feature-container{
     
     grid-template-columns: repeat(1,1fr);
