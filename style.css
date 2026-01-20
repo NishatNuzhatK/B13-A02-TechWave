@@ -466,12 +466,15 @@ footer{
     }
 
     .banner{
-        height: 30rem;
+        height: 32rem;
     }
+
+    .text-content{
+    margin-top: 25rem;
+}
 
     .image-container .top-1{
         height: 12rem;
-        margin-bottom: 1rem;
     }
 
     .image-container .top-2{
