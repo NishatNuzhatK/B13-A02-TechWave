@@ -145,6 +145,7 @@ h1 .wave{
     margin-bottom: 1.5rem;
 }
 
+
 .banner-btn{
     padding: .75rem 1.25rem;
     background-color: transparent;
@@ -154,6 +155,7 @@ h1 .wave{
     font-weight: 500;
     color: #00FF88;
     margin-bottom: 6rem;
+
 }
 
 .banner-btn2{
@@ -528,7 +530,8 @@ footer{
     
     grid-template-columns: repeat(1,1fr);
     gap: 1rem;
-    margin-left: 1.5rem;
+    margin-left: 0.25rem;
+    align-items: center;
 }
 
 .feature h1{
@@ -548,6 +551,9 @@ footer{
 
 }
 
+.host-text p{
+    padding: 0 5px;
+}
 footer{
     max-width: 440px;
 }
