@@ -396,8 +396,9 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
+
+
 
 .footer-container h1{
     font-size:3.5rem ;
@@ -503,6 +504,15 @@ footer{
     margin-left: 1rem;
     margin-right: 1rem;
 
+}
+
+footer{
+    max-width: 440px;
+}
+
+.footer-icon{
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.3rem;
 }
 
    
